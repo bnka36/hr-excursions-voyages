@@ -22,7 +22,7 @@ export function PageHero({
           priority
           className="absolute inset-0"
           sizes="100vw"
-          objectPosition={seed === "vehicle-mercedes-vito" ? "30% 40%" : "center"}
+          objectPosition={seed === "vehicle-mercedes-vito" ? "20% 50%" : "center"}
         />
       ) : (
         <PlaceholderPhoto seed={seed} label={title} tone="hero" className="absolute inset-0" />

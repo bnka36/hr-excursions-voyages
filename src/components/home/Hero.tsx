@@ -13,7 +13,7 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         alt="Mercedes Vito — HR Excursions & Voyages"
         priority
         sizes="100vw"
-        objectPosition="30% 40%"
+        objectPosition="20% 50%"
         className="absolute inset-0"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/20" />

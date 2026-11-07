@@ -65,7 +65,7 @@ export function Photo({
         sizes={sizes}
         priority={priority}
         className="object-cover"
-        style={{ objectPosition }}
+        objectPosition={objectPosition}
       />
     </div>
   );
