@@ -10,5 +10,5 @@ export const services: ServiceItem[] = [
   { id: "excursions", slug: "excursions", image: "merzouga-dunes" },
   { id: "customTours", slug: "circuits-sur-mesure", image: "ait-ben-haddou" },
   { id: "cityTours", slug: "visites-de-villes", image: "marrakech-jemaa" },
-  { id: "hotelsAgencies", slug: "hotels-agences", image: "partners" },
+  { id: "hotelsAgencies", slug: "hotels-agences", image: "partners-riad-van" },
 ];

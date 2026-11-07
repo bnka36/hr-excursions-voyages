@@ -34,11 +34,12 @@ export default async function PartnersPage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <PageHero eyebrow={dict.nav.partners} title={dict.partnersPage.title} subtitle={dict.partnersPage.subtitle} seed="partners-hero" />
+      <PageHero eyebrow={dict.nav.partners} title={dict.partnersPage.title} subtitle={dict.partnersPage.subtitle} seed="partners-chauffeur-welcome" />
 
       <section className="bg-paper py-20 md:py-28">
         <Container className="max-w-3xl">
           <p className="text-base leading-relaxed text-stone md:text-lg">{dict.partnersPage.intro}</p>
+          <p className="mt-3 text-xs text-stone-light">{dict.partnersPage.photoDisclaimer}</p>
         </Container>
 
         <Container className="mt-14">

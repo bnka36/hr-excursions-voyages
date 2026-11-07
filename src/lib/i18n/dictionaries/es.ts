@@ -203,6 +203,7 @@ const es: Dictionary = {
       "Hoteles, riads, conserjerías y agencias de viajes: confíenos el transporte de sus clientes, según nuestra disponibilidad.",
     intro:
       "HR Excursions & Voyages acompaña a los profesionales del turismo marroquí con un servicio de transporte fiable, receptivo y elegante para sus clientes y grupos.",
+    photoDisclaimer: "Fotos ilustrativas: no representan necesariamente a nuestro chófer, vehículos o socios reales.",
     valueProps: {
       reliability: {
         title: "Servicio fiable y seguro",

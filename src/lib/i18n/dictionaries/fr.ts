@@ -201,6 +201,7 @@ const fr = {
       "Hôtels, riads, conciergeries et agences de voyages : confiez-nous le transport de vos clients, selon nos capacités disponibles.",
     intro:
       "HR Excursions & Voyages accompagne les professionnels du tourisme marocain avec un service de transport fiable, réactif et élégant pour leurs clients et leurs groupes.",
+    photoDisclaimer: "Photos illustratives — elles ne représentent pas nécessairement notre chauffeur, nos véhicules ou nos partenaires réels.",
     valueProps: {
       reliability: {
         title: "Service fiable et sécurisé",

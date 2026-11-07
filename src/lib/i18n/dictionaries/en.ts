@@ -203,6 +203,7 @@ const en: Dictionary = {
       "Hotels, riads, concierge services and travel agencies: entrust us with your clients' transport, within our available capacity.",
     intro:
       "HR Excursions & Voyages supports Moroccan tourism professionals with a reliable, responsive and elegant transport service for their clients and groups.",
+    photoDisclaimer: "Illustrative photos — they do not necessarily show our actual driver, vehicles or partners.",
     valueProps: {
       reliability: {
         title: "Reliable and secure service",

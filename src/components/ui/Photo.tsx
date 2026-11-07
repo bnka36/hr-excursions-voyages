@@ -32,6 +32,8 @@ export const AVAILABLE_PHOTOS = new Set([
   "vehicle-fiat-scudo",
   "vehicle-skoda-octavia",
   "vehicle-minibus",
+  "partners-chauffeur-welcome",
+  "partners-riad-van",
 ]);
 
 export function Photo({
