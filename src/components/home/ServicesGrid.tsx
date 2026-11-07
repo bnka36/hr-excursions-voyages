@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { PlaceholderPhoto } from "@/components/ui/PlaceholderPhoto";
+import { Photo } from "@/components/ui/Photo";
 import { services } from "@/lib/data/services";
 
 const serviceLinks: Record<string, string> = {
@@ -32,7 +32,7 @@ export function ServicesGrid({ locale, dict }: { locale: Locale; dict: Dictionar
                 href={`/${locale}/${serviceLinks[service.id]}`}
                 className="group relative overflow-hidden rounded-2xl border border-ink/10 transition-shadow hover:shadow-xl"
               >
-                <PlaceholderPhoto seed={service.image} label={item.title} className="h-56 w-full transition-transform duration-500 group-hover:scale-105" />
+                <Photo id={service.image} alt={item.title} className="h-56 w-full transition-transform duration-500 group-hover:scale-105" />
                 <div className="p-6">
                   <h3 className="font-serif text-xl text-ink">{item.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-stone">{item.description}</p>

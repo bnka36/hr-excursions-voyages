@@ -188,14 +188,14 @@ const es: Dictionary = {
     },
   },
   vehiclePage: {
-    title: "Nuestro Vehículo",
-    subtitle: "Un único vehículo por ahora, elegido por su confort y fiabilidad.",
+    title: "Nuestros Vehículos",
+    subtitle: "Una flota variada, adaptada al tamaño de su grupo y a sus necesidades.",
     specsTitle: "Características",
     equipmentTitle: "Equipamiento",
     suitedForTitle: "Servicios compatibles",
     cta: "Reservar este vehículo",
     futureNote:
-      "Se podrán añadir otros vehículos a nuestra flota en el futuro, según las necesidades de nuestros clientes.",
+      "Las fotos mostradas son ilustrativas del modelo y no representan necesariamente el vehículo exacto asignado a su reserva.",
   },
   partnersPage: {
     title: "Su socio de transporte turístico en Marruecos",

@@ -3,7 +3,7 @@ import { ArrowUpRight, Clock } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 import type { Excursion } from "@/lib/data/types";
-import { PlaceholderPhoto } from "@/components/ui/PlaceholderPhoto";
+import { Photo } from "@/components/ui/Photo";
 
 export function ExcursionCard({
   excursion,
@@ -19,9 +19,9 @@ export function ExcursionCard({
       href={`/${locale}/excursions/${excursion.slug}`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-ink/10 transition-shadow hover:shadow-xl"
     >
-      <PlaceholderPhoto
-        seed={excursion.images[0] ?? excursion.id}
-        label={excursion.title[locale]}
+      <Photo
+        id={excursion.images[0] ?? excursion.id}
+        alt={excursion.title[locale]}
         className="h-52 w-full transition-transform duration-500 group-hover:scale-105"
       />
       <div className="flex flex-1 flex-col p-5">

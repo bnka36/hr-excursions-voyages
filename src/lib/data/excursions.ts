@@ -81,7 +81,7 @@ export const excursions: Excursion[] = [
       es: ["Almuerzo", "Guía local (bajo petición)", "Entradas a los sitios"],
       ar: ["الغداء", "مرشد محلي (حسب الطلب)", "رسوم دخول المواقع"],
     },
-    images: ["essaouira-1", "essaouira-2"],
+    images: ["essaouira-ramparts", "essaouira-medina"],
   },
   {
     id: "ouarzazate-ait-ben-haddou",
@@ -160,7 +160,7 @@ export const excursions: Excursion[] = [
       es: ["Almuerzo", "Entradas a los sitios y estudios", "Guía local (bajo petición)"],
       ar: ["الغداء", "رسوم دخول المواقع والاستوديوهات", "مرشد محلي (حسب الطلب)"],
     },
-    images: ["ouarzazate-1", "ait-ben-haddou-1"],
+    images: ["ouarzazate-kasbah", "ait-ben-haddou"],
   },
   {
     id: "merzouga-desert",
@@ -226,7 +226,7 @@ export const excursions: Excursion[] = [
       es: ["Comidas", "Alojamiento en ciudad", "Paseo en dromedario (según el proveedor local)"],
       ar: ["الوجبات", "الإقامة في المدينة", "جولة الجمال (حسب المزود المحلي)"],
     },
-    images: ["merzouga-1", "merzouga-2"],
+    images: ["merzouga-dunes", "merzouga-camels"],
   },
   {
     id: "chefchaouen-blue-city",
@@ -300,7 +300,7 @@ export const excursions: Excursion[] = [
       es: ["Almuerzo", "Guía local (bajo petición)"],
       ar: ["الغداء", "مرشد محلي (حسب الطلب)"],
     },
-    images: ["chefchaouen-1", "chefchaouen-2"],
+    images: ["chefchaouen-street"],
   },
   {
     id: "cascades-ouzoud",
@@ -374,7 +374,7 @@ export const excursions: Excursion[] = [
       es: ["Almuerzo", "Paseo en barca", "Guía local (bajo petición)"],
       ar: ["الغداء", "جولة بالقارب", "مرشد محلي (حسب الطلب)"],
     },
-    images: ["ouzoud-1"],
+    images: ["ouzoud-falls"],
   },
 ];
 

@@ -1,17 +1,19 @@
 import { ShieldCheck, UserCheck, Gem } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
-import { PlaceholderPhoto } from "@/components/ui/PlaceholderPhoto";
+import { Photo } from "@/components/ui/Photo";
 import { CtaLink } from "@/components/ui/CtaLink";
 import { QuoteForm } from "./QuoteForm";
 
 export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     <section className="relative overflow-hidden bg-ink pt-20">
-      <PlaceholderPhoto
-        seed="hero-mercedes-vito-marrakech"
-        label="Mercedes Vito — HR Excursions & Voyages"
-        tone="hero"
+      <Photo
+        id="vehicle-mercedes-vito"
+        alt="Mercedes Vito — HR Excursions & Voyages"
+        priority
+        sizes="100vw"
+        objectPosition="30% 40%"
         className="absolute inset-0"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/20" />

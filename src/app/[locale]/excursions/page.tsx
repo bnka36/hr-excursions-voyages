@@ -35,7 +35,7 @@ export default async function ExcursionsPage({ params }: { params: Promise<{ loc
 
   return (
     <>
-      <PageHero eyebrow={dict.nav.excursions} title={dict.excursionsPage.title} subtitle={dict.excursionsPage.subtitle} seed="excursions-hero" />
+      <PageHero eyebrow={dict.nav.excursions} title={dict.excursionsPage.title} subtitle={dict.excursionsPage.subtitle} seed="merzouga-dunes" />
       <section className="bg-paper py-16 md:py-24">
         <Container>
           <ExcursionsFilterGrid excursions={excursions} destinations={destinations} locale={locale} dict={dict} />

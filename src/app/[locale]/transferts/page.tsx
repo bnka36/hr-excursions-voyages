@@ -35,7 +35,7 @@ export default async function TransfersPage({ params }: { params: Promise<{ loca
 
   return (
     <>
-      <PageHero eyebrow={dict.nav.transfers} title={dict.transfersPage.title} subtitle={dict.transfersPage.subtitle} seed="transfers-hero" />
+      <PageHero eyebrow={dict.nav.transfers} title={dict.transfersPage.title} subtitle={dict.transfersPage.subtitle} seed="vehicle-mercedes-vito" />
 
       <section className="bg-paper py-20 md:py-28">
         <Container>

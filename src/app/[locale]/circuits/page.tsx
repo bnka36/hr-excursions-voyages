@@ -34,7 +34,7 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
 
   return (
     <>
-      <PageHero eyebrow={dict.nav.tours} title={dict.tours.title} subtitle={dict.tours.subtitle} seed="tours-hero" />
+      <PageHero eyebrow={dict.nav.tours} title={dict.tours.title} subtitle={dict.tours.subtitle} seed="ouarzazate-kasbah" />
 
       <section className="bg-paper py-20 md:py-28">
         <Container className="max-w-3xl text-center">

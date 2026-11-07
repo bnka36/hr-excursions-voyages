@@ -5,7 +5,7 @@ import { isLocale, locales, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildMetadata } from "@/lib/seo";
 import { Container } from "@/components/ui/Container";
-import { PlaceholderPhoto } from "@/components/ui/PlaceholderPhoto";
+import { Photo } from "@/components/ui/Photo";
 import { excursions, getExcursionBySlug } from "@/lib/data/excursions";
 import { getDestinationById } from "@/lib/data/destinations";
 import { buildWhatsappLink } from "@/lib/utils/whatsapp";
@@ -50,7 +50,7 @@ export default async function ExcursionDetailPage({
   return (
     <>
       <section className="relative overflow-hidden bg-ink pt-20">
-        <PlaceholderPhoto seed={excursion.images[0] ?? excursion.id} label={excursion.title[locale]} tone="hero" className="absolute inset-0" />
+        <Photo id={excursion.images[0] ?? excursion.id} alt={excursion.title[locale]} priority sizes="100vw" className="absolute inset-0" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/75 to-ink/30" />
         <div className="relative mx-auto w-full max-w-[1280px] px-6 py-24 md:px-10 md:py-32">
           <div className="flex items-center gap-3 text-xs font-semibold tracking-[0.22em] text-gold-light uppercase">

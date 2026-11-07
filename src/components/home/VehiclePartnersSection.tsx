@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
+import { Photo } from "@/components/ui/Photo";
 import { PlaceholderPhoto } from "@/components/ui/PlaceholderPhoto";
 import { CtaLink } from "@/components/ui/CtaLink";
 import { primaryVehicle } from "@/lib/data/vehicle";
@@ -10,7 +11,7 @@ export function VehiclePartnersSection({ locale, dict }: { locale: Locale; dict:
     <section className="bg-paper py-20 md:py-28">
       <div className="mx-auto grid w-full max-w-[1280px] grid-cols-1 gap-6 px-6 md:px-10 lg:grid-cols-2">
         <div className="relative overflow-hidden rounded-3xl bg-ink text-paper">
-          <PlaceholderPhoto seed="vito-exterior-1" label={primaryVehicle.name} className="h-56 w-full" />
+          <Photo id="vehicle-fiat-scudo" alt={primaryVehicle.name} className="h-56 w-full" />
           <div className="p-8">
             <p className="text-xs font-semibold tracking-[0.2em] text-gold-light uppercase">{dict.vehiclePage.title}</p>
             <h3 className="mt-2 font-serif text-2xl">{primaryVehicle.name}</h3>

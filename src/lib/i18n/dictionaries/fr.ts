@@ -186,14 +186,14 @@ const fr = {
     },
   },
   vehiclePage: {
-    title: "Notre Véhicule",
-    subtitle: "Un seul véhicule aujourd'hui, choisi pour son confort et sa fiabilité.",
+    title: "Nos Véhicules",
+    subtitle: "Une flotte variée, adaptée à la taille de votre groupe et à vos besoins.",
     specsTitle: "Caractéristiques",
     equipmentTitle: "Équipements",
     suitedForTitle: "Prestations compatibles",
     cta: "Réserver ce véhicule",
     futureNote:
-      "D'autres véhicules pourront être ajoutés à notre flotte à l'avenir, selon les besoins de nos clients.",
+      "Les photos présentées sont illustratives du modèle et ne représentent pas nécessairement le véhicule exact attribué à votre réservation.",
   },
   partnersPage: {
     title: "Votre partenaire de transport touristique au Maroc",

@@ -19,7 +19,7 @@ export const destinations: Destination[] = [
       es: "Capital económica de Marruecos, entre arquitectura Art Déco y un animado paseo marítimo.",
       ar: "العاصمة الاقتصادية للمغرب، بين عمارة آرت ديكو وواجهة بحرية نابضة بالحياة.",
     },
-    image: "casablanca",
+    image: "casablanca-mosque",
   },
   {
     id: "marrakech",
@@ -34,7 +34,7 @@ export const destinations: Destination[] = [
       es: "La perla del sur, entre tradición, cultura y arte de vivir.",
       ar: "لؤلؤة الجنوب، بين التقاليد والثقافة وفن العيش.",
     },
-    image: "marrakech",
+    image: "marrakech-koutoubia",
   },
   {
     id: "rabat",
@@ -49,7 +49,7 @@ export const destinations: Destination[] = [
       es: "Capital administrativa, elegante y tranquila, rica en historia.",
       ar: "العاصمة الإدارية، أنيقة وهادئة وغنية بالتاريخ.",
     },
-    image: "rabat",
+    image: "rabat-tower",
   },
   {
     id: "el-jadida",
@@ -64,7 +64,7 @@ export const destinations: Destination[] = [
       es: "Ciudadela portuguesa declarada Patrimonio de la UNESCO, con un encanto discreto frente al océano.",
       ar: "مدينة برتغالية مصنفة ضمن التراث العالمي لليونسكو، بسحر هادئ يطل على المحيط.",
     },
-    image: "el-jadida",
+    image: "el-jadida-cistern",
   },
   {
     id: "tanger",
@@ -79,7 +79,7 @@ export const destinations: Destination[] = [
       es: "La puerta de Marruecos entre dos continentes, entre la medina y el paseo marítimo.",
       ar: "بوابة المغرب بين قارتين، بين المدينة العتيقة والواجهة البحرية.",
     },
-    image: "tanger",
+    image: "tanger-medina",
   },
   {
     id: "fes",
@@ -94,7 +94,7 @@ export const destinations: Destination[] = [
       es: "La medina habitada más antigua del mundo, capital espiritual de Marruecos.",
       ar: "أقدم مدينة عتيقة ما زالت مأهولة في العالم، العاصمة الروحية للمغرب.",
     },
-    image: "fes",
+    image: "fes-tannery",
   },
   {
     id: "essaouira",
@@ -109,7 +109,7 @@ export const destinations: Destination[] = [
       es: "Ciudad de los alisios, murallas frente al océano y medina declarada Patrimonio de la UNESCO.",
       ar: "مدينة الرياح التجارية، أسوار تطل على المحيط ومدينة عتيقة مصنفة لدى اليونسكو.",
     },
-    image: "essaouira",
+    image: "essaouira-ramparts",
   },
   {
     id: "agadir",
@@ -124,7 +124,7 @@ export const destinations: Destination[] = [
       es: "Estación balnearia moderna, playa extensa y clima suave todo el año.",
       ar: "منتجع ساحلي حديث، شاطئ طويل ومناخ معتدل طوال السنة.",
     },
-    image: "agadir",
+    image: "agadir-marina",
   },
   {
     id: "ouarzazate",
@@ -139,7 +139,7 @@ export const destinations: Destination[] = [
       es: "Puerta del desierto, kasbahs de tierra ocre y estudios de cine reconocidos mundialmente.",
       ar: "بوابة الصحراء، قصبات من الطين الأصفر واستوديوهات سينمائية معروفة عالميًا.",
     },
-    image: "ouarzazate",
+    image: "ouarzazate-kasbah",
   },
   {
     id: "chefchaouen",
@@ -154,7 +154,7 @@ export const destinations: Destination[] = [
       es: "La perla azul enclavada en las montañas del Rif, con sus callejuelas pintadas de azul.",
       ar: "اللؤلؤة الزرقاء المتربعة بين جبال الريف، بأزقتها المطلية باللون الأزرق.",
     },
-    image: "chefchaouen",
+    image: "chefchaouen-street",
   },
   {
     id: "merzouga",
@@ -169,7 +169,7 @@ export const destinations: Destination[] = [
       es: "Las grandes dunas de Erg Chebbi, puerta de entrada al Sáhara marroquí.",
       ar: "كثبان العرق الشبي الكبرى، بوابة الصحراء المغربية.",
     },
-    image: "merzouga",
+    image: "merzouga-dunes",
   },
 ];
 

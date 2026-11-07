@@ -26,7 +26,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
 
   return (
     <>
-      <PageHero eyebrow={dict.nav.about} title={dict.aboutPage.title} subtitle={dict.aboutPage.subtitle} seed="about-hero" />
+      <PageHero eyebrow={dict.nav.about} title={dict.aboutPage.title} subtitle={dict.aboutPage.subtitle} seed="marrakech-koutoubia" />
 
       <section className="bg-paper py-20 md:py-28">
         <Container className="grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr]">

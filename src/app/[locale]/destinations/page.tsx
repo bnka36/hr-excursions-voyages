@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { PlaceholderPhoto } from "@/components/ui/PlaceholderPhoto";
+import { Photo } from "@/components/ui/Photo";
 import { MoroccoMap } from "@/components/map/MoroccoMap";
 import { getEnabledDestinations } from "@/lib/data/destinations";
 
@@ -42,7 +42,7 @@ export default async function DestinationsPage({ params }: { params: Promise<{ l
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {destinations.map((d) => (
               <div key={d.id} className="overflow-hidden rounded-2xl border border-ink/10">
-                <PlaceholderPhoto seed={d.image} label={d.name[locale]} className="h-44 w-full" />
+                <Photo id={d.image} alt={d.name[locale]} className="h-44 w-full" />
                 <div className="p-5">
                   <p className="text-xs font-semibold tracking-[0.15em] text-gold-dark uppercase">{d.region[locale]}</p>
                   <h3 className="mt-1 font-serif text-lg text-ink">{d.name[locale]}</h3>

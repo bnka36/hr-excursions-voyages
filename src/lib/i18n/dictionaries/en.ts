@@ -188,14 +188,14 @@ const en: Dictionary = {
     },
   },
   vehiclePage: {
-    title: "Our Vehicle",
-    subtitle: "A single vehicle today, chosen for its comfort and reliability.",
+    title: "Our Vehicles",
+    subtitle: "A varied fleet, suited to your group's size and needs.",
     specsTitle: "Specifications",
     equipmentTitle: "Equipment",
     suitedForTitle: "Suitable for",
     cta: "Book this vehicle",
     futureNote:
-      "Other vehicles may be added to our fleet in the future, based on our clients' needs.",
+      "Photos shown are illustrative of the model and do not necessarily represent the exact vehicle assigned to your booking.",
   },
   partnersPage: {
     title: "Your tourist transport partner in Morocco",
